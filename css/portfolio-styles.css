@@ -3,16 +3,22 @@ body{
   color: #dbdbdb;
 }
 
+a{
+  color: white;
+}
+
 .title{
   float:left;
   font-family: monospace;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
-  /*border-top: 6px solid #dbdbdb;
-  border-bottom: 6px solid #dbdbdb;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 6px solid #dbdbdb;
+  border-bottom: 6px solid #dbdbdb;
   border-radius: 5px;
-  box-shadow: 4px 4px 8px darkgrey,
-             -4px -4px 8px darkgrey;
+  /*box-shadow: 4px 4px 8px darkgrey,
+             -4px -4px 8px darkgrey;*/
 }
 
 .headshot{
@@ -32,7 +38,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px 20px 30px 20px;
-  border-radius: 15px;
+  border-radius: 10px;
 /*  box-shadow: 4px 4px 8px darkgrey; */
 }
 
@@ -42,18 +48,39 @@ body{
 
 .content-wrapper{
   background-color: #606D66;
-  border: 2px solid #dbdbdb;
-  border-radius: 25px;
+/*  border-bottom: 2px solid #dbdbdb;
+  border-left: 2px solid #dbdbdb;
+  border-right:  2px solid #dbdbdb;
+  border-top: 2px solid #dbdbdb; */
+  border-radius: 25px 25px 25px 25px;
   padding: 80px;
-  margin-top: 50px;
   margin-bottom:50px;
+  box-shadow: inset 4px 4px 20px darkgrey,
+              inset -4px -4px 20px darkgrey;
 }
 
 .container{
   width: 1300px;
 }
 
+.nav{
+  border-bottom: none;
+}
+
 .navigation{
   color:#dbdbdb;
-  text-align: center;
+  background-color:#77a3b0;
+  border-radius: 7px 7px 0px 0px;
+  margin-top:50px;
+  border-top: 2px solid #dbdbdb;
+  border-left: 2px solid #dbdbdb;
+  border-right: 2px solid #dbdbdb;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  margin-right: auto;
 }
